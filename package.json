@@ -1,0 +1,26 @@
+{
+  "name": "sanber56-cypress-willy",
+  "version": "1.0.0",
+  "description": "Quiz-2 Automation UI test dengan Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillyArdiyanto/Sanber56-Cypress-Willy.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Automation"
+  ],
+  "author": "Willy Ardiyanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillyArdiyanto/Sanber56-Cypress-Willy/issues"
+  },
+  "homepage": "https://github.com/WillyArdiyanto/Sanber56-Cypress-Willy#readme",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
