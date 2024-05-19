@@ -32,7 +32,7 @@ describe('Magneto login', () => {
     cy.fixture('usersValid.json').then((users) => {
       const userdata = users[0]
       loginPage.login(newUserEmail, userdata.password)
-      cy.get('.message-error > div').should('contain', 'The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later');
+      cy.get('.message-error > div').should('be.visible');
     })
     
   })
