@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/WillyArdiyanto/Sanber56-Cypress-Willy#readme",
   "devDependencies": {
-    "cypress": "^13.9.0"
+    "cypress": "^13.9.0",
+    "cypress-xpath": "^2.0.1"
   }
 }

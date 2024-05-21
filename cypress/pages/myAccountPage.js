@@ -23,3 +23,5 @@ class myAccountPage{
     }
 
 }
+
+module.exports = new myAccountPage()

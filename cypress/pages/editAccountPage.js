@@ -11,7 +11,12 @@ class editAccountPage{
         saveBtn : () => cy.get('#form-validate > .actions-toolbar > div.primary > .action')
     }
 
-    editAccount(firstname, lastname){
-        this.elements.firstname().clear().type()
+    editAccountName(firstname, lastname){
+        this.elements.firstname().clear().type(firstname),
+        this.elements.firstname().clear().type(lastname),
+        this.elements.saveBtn().click()
     }
+
 }
+
+module.exports = new editAccountPage()
